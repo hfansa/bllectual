@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    base: "/bllectual"
+    base: "/bllectual",
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
